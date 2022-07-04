@@ -2,22 +2,24 @@
 
 **Task**
 
-Given an integer, \eta, perform the following conditional actions:
+Given an integer, **$\eta$**, perform the following conditional actions:
 
-- If  is odd, print Weird
-- If  is even and in the inclusive range of  to , print Not Weird
-- If  is even and in the inclusive range of  to , print Weird
-- If  is even and greater than , print Not Weird
+- If **$\eta$** is odd, print *Weird*
+- If **$\eta$** is even and in the inclusive range of **2** to **5**, print *Not Weird*
+- If **$\eta$** is even and in the inclusive range of **6** to **20**, print *Weird*
+- If **$\eta$** is even and greater than **20**, print *Not Weird*
 
 **Input Format**
 
-A single line containing a positive integer, .
+A single line containing a positive integer, **$\eta$**.
 
 **Constraints**
+- $1 \leq \eta \leq 100$
+
 
 **Output Format**
 
-*Print Weird if the number is weird. Otherwise, print Not Weird.*
+Print *Weird* if the number is weird. Otherwise, print *Not Weird*.
 
 **Sample Input 0**
 ```shell
@@ -31,8 +33,8 @@ Weird
 
 **Explanation 0**
 
-
- is odd and odd numbers are weird, so print Weird.
+$\eta = 3$
+$\eta$ is odd and odd numbers are weird, so print *Weird*.
 
 **Sample Input 1**
 ```shell
@@ -46,5 +48,6 @@ Not Weird
 
 **Explanation 1**
 
+$\eta = 24$
 
- and  is even, so it is not weird.
+$\eta > 20$ and $\eta$ is even, so it is not weird.
