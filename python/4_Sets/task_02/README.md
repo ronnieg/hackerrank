@@ -1,2 +1,0 @@
-# Symmetric Difference
-
